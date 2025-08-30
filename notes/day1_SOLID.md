@@ -66,6 +66,7 @@ Promotes reusability (maybe you reuse DbLogger in other parts of system)
 
 Makes the system modular
 
+AI: keep data preprocessing separate from model training code.
 
 
 ------------------------
@@ -121,6 +122,7 @@ No risky edits in existing, tested code
 
 Easier maintenance & plug-in style flexibility
 
+Adding new ML models via interfaces without changing existing pipeline.
 
 ----------------------------------
 
@@ -189,6 +191,8 @@ Subclass changes the meaning of methods (e.g., returns null when parent promised
 
 Fix: design better abstractions (don’t force subclasses into behaviors they can’t support).
 
+Different regression models should be swappable without breaking evaluation logic.
+
 ----------------------------------------
 
 
@@ -237,6 +241,7 @@ Smaller interfaces → more flexibility, less coupling, easier testing.
 
 A class should not have to implement methods that are irrelevant to it.
 
+Separate model training interface from prediction interface.
 
 ------------------------------------------
 
@@ -324,7 +329,7 @@ Easier to unit test (mock abstractions)
 
 More flexible & maintainable
 
-
+Pipeline depends on abstractions, not concrete implementations.
 
 
 

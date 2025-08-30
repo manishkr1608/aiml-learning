@@ -18,6 +18,8 @@ When you may need to introduce new product types without changing client code.
 
 Applications might need to work with different databases, if DB is hardcoded then it will have problem changing in future
 
+
+
 Bad one
 public class Database
 {
@@ -240,6 +242,8 @@ class Program
 Follows OCP, DIP
 adding new DB families = extend by adding new concrete factories/products.
 
+lets the pipeline swap models via config/CLI.
+
 ---------------------------------
 
 Singleton:
@@ -277,6 +281,7 @@ var logger = Logger.Instance;  // depends on concrete, not abstraction
 In its DI form, it respects DIP.
 services.AddSingleton<ILogger, Logger>();
 
+one connection/client for performance; avoid global state when testing.
 
 
 
