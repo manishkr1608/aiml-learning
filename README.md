@@ -28,3 +28,11 @@ This repository documents my journey of moving from Director of Engineering → 
 - weekX/ -> Weekly learning notebooks
 - notes/ -> Architecture, product vision, communication notes
 - projects/ -> End-to-end AI/ML projects
+
+
+## ✅ Week 2 Summary
+- Titanic ML mini-projects: Logistic Regression, Decision Tree, Random Forest, and model comparison
+- Design patterns: Proxy, Composite, Decorator extension
+- Product Vision: churn, adoption vs engagement, ROI vs risk
+- Completed Week 2 coding practice set (Two Sum, Valid Parentheses, Best Stock)
+- Communication: daily reflections + repo polish
