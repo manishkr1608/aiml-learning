@@ -1,0 +1,14 @@
+
+
+Day 2 — Linear Combinations & Basis Vectors
+Focus: Linear combinations, span, and basis vectors.
+Key takeaway: Any vector in a space can be formed by a weighted sum of basis vectors — neural nets learn those weights to build useful feature representations.
+Practical note: A layer’s weights are the coefficients that form linear combinations of input features; learning = finding the right span.
+
+
+A basis is the smallest set of vectors that can be combined to create any other vector in a given space. It acts like a set of fundamental "building blocks," with two key properties: the vectors in the set must be linearly independent (no vector can be formed by a combination of the others) and they must span the entire vector space (together, they can create every possible vector in that space). Its similar to sequence where in you give few initial sequence numbers and we can get the whole sequence
+
+
+The span of a set of vectors is the set of all possible linear combinations of those vectors
+
+
