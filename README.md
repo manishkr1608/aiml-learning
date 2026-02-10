@@ -36,3 +36,34 @@ This repository documents my journey of moving from Director of Engineering → 
 - Product Vision: churn, adoption vs engagement, ROI vs risk
 - Completed Week 2 coding practice set (Two Sum, Valid Parentheses, Best Stock)
 - Communication: daily reflections + repo polish
+
+
+## ⚙️ **Week 3–4 (Sep 7 – Sep 20): Deep Learning Core**
+**Focus:** Neural Nets, CNN (CIFAR-10), Backpropagation  
+**Architecture:** Adapter, Bridge, Decorator  
+**Leadership:** Managing ML teams & stakeholder alignment  
+**Deliverables:**  
+- `cnn_cifar10.ipynb`  
+- `bridge_pattern.md`  
+- Reflection summary  
+
+---
+
+## 🔍 **Week 5 (Sep 21 – Oct 5): NLP + Transformers**
+**Focus:** LSTM, Attention, Transformer intro  
+**Architecture:** Mediator, Proxy, Visitor  
+**Leadership:** Product-market alignment for AI solutions  
+**Deliverables:**  
+- `transformer_demo.ipynb`  
+- `mediator_pattern.md`  
+- `product_alignment.md`
+
+---
+
+## 🧠 **Week 6 (Oct 6 – Oct 20): Integration & Reset**
+**Focus:** End-to-end ML → DL pipeline review  
+**Architecture:** Builder, State, Strategy Patterns  
+**Leadership:** Team scaling, cross-functional leadership  
+**Deliverables:**  
+- `pipeline_integration.ipynb`  
+- `reset_reflection.md` 
